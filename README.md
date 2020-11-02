@@ -1,3 +1,3 @@
 # navigate.AI
 
-me/nuninho/Pictures/logo.png' 
+![alt text](me/nuninho/Pictures/logo.png) 
