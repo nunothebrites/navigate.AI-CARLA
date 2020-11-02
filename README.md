@@ -1,3 +1,3 @@
 # navigate.AI
 
-![alt text](me/nuninho/Pictures/logo.png) 
+![](https://github.com/nuno43300/navigate.AI/blob/main/logo.png) 
