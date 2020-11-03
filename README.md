@@ -1,8 +1,8 @@
 # navigate.AI
 
 ![](https://github.com/nuno43300/navigate.AI/blob/main/logo.png?raw=true)
-![](https://imgur.com/TABFlri)
-![](https://imgur.com/cY9YwSh)
+[![](https://imgur.com/TABFlri)](#)
+[![](https://imgur.com/cY9YwSh)](#)
 
 Navigate.AI is a travel assistance system that uses artificial intelligence (AI), this project is developed in the programming language "Python" and uses "Deep Learning" through the frameworks "PyTorch".
 
