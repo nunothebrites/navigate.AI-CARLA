@@ -1,5 +1,5 @@
 numpy==1.16.4
-tensorflow-gpu==1.14.0
+tensorflow==1.14.0
 keras==2.2.4
 opencv-python==4.5.1.48
 psutil==5.8.0
