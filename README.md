@@ -1,15 +1,25 @@
 # navigate.AI
+navigate.AI is a travel assistance system that uses artificial intelligence (AI), this project is developed in the programming language "Python" and has the objective of using "Deep Reinforcement Learning" to safely guide a car.
+<img src="images/logo.png">
+| <img src="images/carla.jpg"> | <img src="images/python.png"> | <img src="images/tensorflow.png"> |
+| ------------ | ------------ | ------------ |
+| <img src="images/keras.png"> | <img src="images/opencv.png"> | <img src="images/cuda.png"> |
 
-![](https://github.com/nuno43300/navigate.AI/blob/main/logo.png?raw=true)
-<table>
-  <tr>
-    <td><a rel="noopener"><img src="https://i.imgur.com/TABFlri.png"></a></td>
-    <td><a rel="noopener"><img src="https://i.imgur.com/cY9YwSh.png"></a></td>
-</table>
+# How to use the script
+##Requirements
+I recomend you using [Python3.7.5](https://www.python.org/downloads/release/python-375/ "Python3.7.5") and [CARLA0.9.8](https://github.com/carla-simulator/carla/releases/tag/0.9.8 "CARLA0.9.8").
+If you want to train model using your **GPU** you need to install [CUDA v.10.0](https://developer.nvidia.com/cuda-10.0-download-archive "CUDA v.10.0") and [CuDNN](https://developer.nvidia.com/rdp/cudnn-archive "CuDNN") for that version of CUDA.
+Install **requirements.txt** if you want to use the **CPU** for training your model
+- `python -m pip install -r requirements.txt`
 
-
-Navigate.AI is a travel assistance system that uses artificial intelligence (AI), this project is developed in the programming language "Python" and uses "Deep Learning" through the frameworks "PyTorch".
-
-# Objectives
-The main objective of this project is to create an artificial intelligence capable of guiding a car (in this case, a simulator, I will be using CARLA) managing to keep the car centered between lanes, avoid collisions, respect traffic signs, detect pedestrians and be able to maintain speed control, as well how to alert the lane change using the car turn signals, all automatically.
-With this project I also intend to gain new knowledge as well as learn to work with artificial intelligence and learn the programming language “Python” and thus increase my knowledge of programming.
+Install **requirements-gpu.txt** if you want to use the **GPU** for training your model
+- `python -m pip install -r requirements-gpu.txt`
+## To train your model
+Edit settings.py, change the `CARLA_PATH` and adjust the settings to your taste.
+Train running train.py.
+- `python train.py`
+##To play your trained model
+Play running play.py.
+- `python play.py`
+<img src="images/carla1.jpg">
+<img src="images/carla2.jpg">

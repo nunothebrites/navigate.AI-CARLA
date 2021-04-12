@@ -1,0 +1,5 @@
+._pycache_/
+.checkpoint/
+.logs/
+.models/
+.tmp/
