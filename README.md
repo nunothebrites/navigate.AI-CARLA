@@ -1,9 +1,9 @@
 # navigate.AI
 navigate.AI is a travel assistance system that uses artificial intelligence (AI), this project is developed in the programming language "Python" and has the objective of using "Deep Reinforcement Learning" to safely guide a car.
-<img src="images/logo.png" width="100">
-| <img src="images/carla.JPG" width="100"> | <img src="images/python.png" width="100"> | <img src="images/tensorflow.png" width="100"> |
+<img src="images/logo.png" width="400">
+| <img src="images/carla.JPG" width="400"> | <img src="images/python.png" width="400"> | <img src="images/tensorflow.png" width="400"> |
 | ------------ | ------------ | ------------ |
-| <img src="images/keras.png" width="100"> | <img src="images/opencv.png" width="100"> | <img src="images/cuda.png" width="100"> |
+| <img src="images/keras.png" width="400"> | <img src="images/opencv.png" width="400"> | <img src="images/cuda.png" width="400"> |
 
 # How to use the script
 ##Requirements
@@ -16,8 +16,10 @@ Install **requirements-gpu.txt** if you want to use the **GPU** for training you
 - `python -m pip install -r requirements-gpu.txt`
 ## To train your model
 Edit settings.py, change the `CARLA_PATH` and adjust the settings to your taste.
+
 Train running train.py.
 - `python train.py`
+
 ##To play your trained model
 Play running play.py.
 - `python play.py`
