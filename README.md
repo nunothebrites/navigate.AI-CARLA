@@ -1,9 +1,9 @@
 # navigate.AI
 navigate.AI is a travel assistance system that uses artificial intelligence (AI), this project is developed in the programming language "Python" and has the objective of using "Deep Reinforcement Learning" to safely guide a car.
-<img src="images/logo.png">
-| <img src="images/carla.jpg"> | <img src="images/python.png"> | <img src="images/tensorflow.png"> |
+<img src="images/logo.png" width="100">
+| <img src="images/carla.JPG" width="100"> | <img src="images/python.png" width="100"> | <img src="images/tensorflow.png" width="100"> |
 | ------------ | ------------ | ------------ |
-| <img src="images/keras.png"> | <img src="images/opencv.png"> | <img src="images/cuda.png"> |
+| <img src="images/keras.png" width="100"> | <img src="images/opencv.png" width="100"> | <img src="images/cuda.png" width="100"> |
 
 # How to use the script
 ##Requirements
@@ -21,5 +21,5 @@ Train running train.py.
 ##To play your trained model
 Play running play.py.
 - `python play.py`
-<img src="images/carla1.jpg">
-<img src="images/carla2.jpg">
+<img src="images/carla1.JPG">
+<img src="images/carla2.JPG">
