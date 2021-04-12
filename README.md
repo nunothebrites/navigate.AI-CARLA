@@ -3,7 +3,7 @@
 <img src="images/logo.png">
 | <img src="images/carla.JPG" width="300"> | <img src="images/python.png" width="250"> | <img src="images/tensorflow.png" width="250"> |
 | ------------ | ------------ | ------------ |
-| <img src="images/keras.png" width="200"> | <img src="images/opencv.png" width="150"> | <img src="images/cuda.png" width="100"> |
+|      <img src="images/keras.png" width="200"> |        <img src="images/opencv.png" width="150"> |         <img src="images/cuda.png" width="150"> |
 
 # How to use the script
 ## Requirements
